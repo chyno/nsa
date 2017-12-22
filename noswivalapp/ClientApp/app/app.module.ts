@@ -9,10 +9,11 @@ import { HomeModule } from './home/home.module';
 import { routing } from './app.routes';
 import { AppService } from './app.service';
 import { AppComponent } from './app.component';
+import { NpmsComponent } from './npms/npms.component';
 
 @NgModule({
     bootstrap: [AppComponent],
-    declarations: [AppComponent],
+    declarations: [AppComponent, NpmsComponent],
     imports: [
         BrowserModule,
         BrowserAnimationsModule,
